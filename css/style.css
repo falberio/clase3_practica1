@@ -1,0 +1,205 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	width: 960px;
+	margin: auto;
+}
+
+header{
+	border-bottom:  2px solid #ababab; 
+	width: 100%;
+	padding-bottom: 0;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	color: #555;
+}
+
+header h1{
+	font-weight: 800;
+	margin-bottom: 0;
+
+}
+
+header h2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+
+nav{
+	width: 300px;
+	float: left;
+	padding: 15px;
+	padding-left: 0;
+}
+
+nav ul{
+	padding: 0;
+	margin:0;
+}
+
+nav ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #555;
+	font-size: 20px;
+}
+
+main{
+	overflow: hidden;
+}
+
+
+section{
+	margin-bottom: 100px;
+	width: 610px;
+	float: right;
+	padding: 0 20px 0 30px;
+	border-left: 2px solid #ababab;
+	overflow: hidden;
+}
+
+main section img{
+	float: right;
+    margin-top: 91px;
+}
+
+main section h3{
+	margin-top: 0;
+	font-size: 30px;
+	color: #555;
+}
+
+article{
+	margin-bottom: 40px;
+	margin-left: 30px;
+}
+
+article h4{
+	margin: 0;
+	color: #555;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+article p{
+	color: #555;
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+section a{
+	text-decoration: none;
+	color: #555;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+
+footer{
+	padding: 20px;
+	background-color: #dcd7d7;
+	height: 180px;
+	border-top: 1px solid #888;
+}
+
+footer .logo{
+	float: left;
+}
+
+footer .logo img{
+	width: 250px;
+}
+
+footer .redes{
+	float: right;
+}
+
+footer .redes ul li{
+	list-style: none;
+	padding-top: 4px;
+	text-align: right;
+}
+
+footer .redes ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+footer .redes li:nth-child(1){
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contacto{
+	width: 1000px;
+	margin:auto;
+}
+
+#contacto form{
+	border-left: 2px solid #D1AD0E;
+	border-right:2px solid #D1AD0E;
+	padding: 20px;
+}
+
+#contacto form label{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#contacto form div{
+	margin-bottom: 30px;
+}
+
+#contacto form p{
+	margin: 0;
+}
+
+#contacto form .comentarios{
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+#contacto form .datos-contacto{
+	font-weight: 400 !important;
+}
+
+#contacto form input[type="submit"], #contacto form input[type="reset"]{
+	padding: 10px 150px;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+}
+
+#contacto form input[type="submit"]{
+	background-color:#DEBD29;
+	color: #fff;
+}
+
+#contacto form input[type="reset"]{
+	color:#DEBD29;
+	background-color: #fff;
+	border: 1px solid #DEBD29;
+}

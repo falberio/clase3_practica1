@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Contacto</title>
+</head>
+<body id="contacto">
+	<form action="index.html">
+		<div>
+			<p><label for="pais">¿De dónde sos?</label></p>
+			<br>
+			<select name="pais">
+				<option value="arg">Argentina</option>
+				<option value="bra">Brasil</option>
+				<option value="chi">Chile</option>
+				<option value="col">Colombia</option>
+				<option value="ven">Venezuela</option>
+			</select>
+		</div>
+
+		<div>
+			<p><label for="iluminacion">¿Qué te pareció la iluminación del ambiente?</label></p>
+			<br>
+			<input type="checkbox" value="muyacorde">Muy acorde<br>
+			<input type="checkbox" value="buena">Buena, pero podría mejorar<br>
+			<input type="checkbox" value="mala">Mala<br>
+		</div>
+
+		<div>
+			<p><label for="plato">¿Qué tipo de plato fue el que más te gustó?</label></p>
+			<br>
+			<input type="checkbox" value="entrada">Entrada<br>
+			<input type="checkbox" value="pp">Plato principal<br>
+			<input type="checkbox" value="postre">Postre<br>
+			<input type="checkbox" value="otros">Otros
+		</div>
+
+		<div>
+			<p><label for="recomendacion">¿Recomendarías el lugar?</label></p>
+			<br>
+			<input type="radio" value="si">Si
+			<input type="radio" value="no">No
+		</div>
+
+		<div>
+			<p><label for="porque">¿Por qué?</label></p>
+			<br>
+			<textarea name="porque" cols="100" rows="10"></textarea>
+		</div>
+
+
+		<p class="comentarios">Dejanos tus datos y nos pondremos en contacto.</p>
+
+		<div>
+			<label class="datos-contacto" for="nombre">Nombre:</label>
+			<input type="text" name="nombre" placeholder="tu nombre">
+		</div>
+
+		<div>
+			<label class="datos-contacto" for="email">Email:</label>
+			<input type="email" name="email" placeholder="tu email">
+		</div>
+		
+		<input type="submit" value="Enviar">
+		<input type="reset" value="Resetear">
+
+	</form>
+</body>
+</html>
